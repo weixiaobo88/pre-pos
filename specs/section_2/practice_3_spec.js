@@ -1,8 +1,8 @@
 var count_same_elements = require("../../practices/section_2/practice_3/practice.js");
 
-xdescribe('practice-1-3', function () {
+describe('practice-2-3', function () {
 
-    var collection_a = [
+    var collection = [
             "a","a","a",
             "e","e","e","e","e","e","e",
             "h", "h","h","h","h","h","h[3]","h","h",
@@ -11,7 +11,7 @@ xdescribe('practice-1-3', function () {
             "c:8",
             "g","g","g","g","g","g","g",
             "b","b","b","b","b","b",
-            "d-5",
+            "d-5"
         ];
 
     it("把A集合中相同的元素统计出数量", function () {
