@@ -1,6 +1,6 @@
 var count_same_elements = require("../../practices/section_2/practice_3/practice.js");
 
-describe('practice-1-3', function () {
+xdescribe('practice-1-3', function () {
 
     var collection_a = [
             "a","a","a",
